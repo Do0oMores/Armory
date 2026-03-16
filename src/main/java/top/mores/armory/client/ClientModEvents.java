@@ -15,10 +15,10 @@ import top.mores.armory.client.ui.LoadoutScreen;
 @Mod.EventBusSubscriber(modid = Armory.MODID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 final class ClientKeyRegister {
     static final KeyMapping OPEN_LOADOUT = new KeyMapping(
-            "key.taczloadout.open",
+            "key.armory.open",
             InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_O,
-            "key.categories.taczloadout"
+            "key.categories.armory"
     );
 
     @SubscribeEvent
